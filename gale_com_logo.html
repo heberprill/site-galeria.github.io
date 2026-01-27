@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galeria — Câmara Municipal de Boa Vista</title>
+  <style>
+    :root{
+      --bg:#f6f7f9;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --border:#e5e7eb;
+      --shadow: 0 8px 24px rgba(0,0,0,.06);
+      --radius: 14px;
+      --gap: 14px;
+      --accent:#0ea5e9;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header{
+      background: linear-gradient(180deg, #0b1220, #111827);
+      color:#fff;
+      padding: 28px 16px;
+    }
+    .container{
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+    }
+
+    .brand-logo{
+      height: 72px;
+      width: auto;
+      max-width: min(360px, 48vw);
+      object-fit: contain;
+      display:block;
+      border-radius: 12px;
+      padding: 6px 10px;
+      background: rgba(0,0,0,.14);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 10px 28px rgba(0,0,0,.18);
+    }
+
+    @media (max-width: 640px){
+      .brand{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .brand-logo{
+        height: 60px;
+        max-width: 100%;
+      }
+    }
+    .logo{
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(255,255,255,.12);
+      display:grid;
+      place-items:center;
+      font-weight:700;
+      letter-spacing:.5px;
+      user-select:none;
+    }
+    h1{
+      margin:0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .subtitle{
+      margin: 6px 0 0;
+      color: rgba(255,255,255,.8);
+      font-size: 13px;
+      line-height: 1.4;
+      max-width: 80ch;
+    }
+
+    .toolbar{
+      margin-top: 16px;
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items:center;
+    }
+    .search{
+      flex: 1 1 260px;
+      position: relative;
+      min-width: 240px;
+    }
+    .search input{
+      width:100%;
+      padding: 12px 12px 12px 40px;
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.08);
+      color:#fff;
+      border-radius: 12px;
+      outline: none;
+    }
+    .search input::placeholder{ color: rgba(255,255,255,.65); }
+    .search .icon{
+      position:absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: .85;
+      font-size: 14px;
+    }
+
+    .filters{
+      display:flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .chip{
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.08);
+      color:#fff;
+      padding: 10px 12px;
+      border-radius: 999px;
+      cursor:pointer;
+      user-select:none;
+      font-size: 13px;
+      display:flex;
+      gap: 8px;
+      align-items:center;
+    }
+    .chip[aria-pressed="true"]{
+      background: rgba(14,165,233,.25);
+      border-color: rgba(14,165,233,.45);
+    }
+
+    main{ padding: 18px 0 34px; }
+
+    .meta{
+      display:flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 14px 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--gap);
+    }
+
+    @media (max-width: 980px){
+      .grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px){
+      .grid{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      display:flex;
+      flex-direction: column;
+      min-height: 260px;
+    }
+
+    .thumb{
+      width:100%;
+      aspect-ratio: 16/9;
+      background: #e5e7eb;
+      position: relative;
+      overflow:hidden;
+    }
+    .thumb img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+    }
+    .badge{
+      position:absolute;
+      left: 10px;
+      top: 10px;
+      background: rgba(17,24,39,.85);
+      color:#fff;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 12px;
+      display:flex;
+      gap:6px;
+      align-items:center;
+    }
+
+    .content{
+      padding: 14px 14px 12px;
+      display:flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+    .title{
+      margin:0;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .desc{
+      margin:0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      flex: 1;
+    }
+    .row{
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+      gap: 10px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .actions{
+      padding: 0 14px 14px;
+      display:flex;
+      gap: 10px;
+    }
+    .btn{
+      flex: 1;
+      display:inline-flex;
+      justify-content:center;
+      align-items:center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      text-decoration:none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .btn.primary{
+      background: var(--accent);
+      color:#fff;
+      border-color: rgba(14,165,233,.35);
+    }
+    .btn:hover{ filter: brightness(.98); }
+    .btn:focus-visible{
+      outline: 3px solid rgba(14,165,233,.35);
+      outline-offset: 2px;
+    }
+
+    footer{
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      padding: 16px 0 26px;
+    }
+
+    .empty{
+      background:#fff;
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      color: var(--muted);
+      display:none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <img class="brand-logo" src="logo_cmbv.png" alt="Câmara Municipal de Boa Vista" decoding="async" />
+        <div>
+          <h1>Galeria de Fotos e Vídeos</h1>
+          <p class="subtitle">
+            Câmara Municipal de Boa Vista — acesse os álbuns hospedados na nuvem (Drive) por evento, sessão, audiência e ações institucionais.
+          </p>
+        </div>
+      </div>
+
+      <div class="toolbar" role="search">
+        <div class="search">
+          <span class="icon" aria-hidden="true">🔎</span>
+          <input id="q" type="search" placeholder="Buscar por título, descrição, tags… (ex.: sessão, audiência, 2026)" autocomplete="off" />
+        </div>
+
+        <div class="filters" aria-label="Filtros">
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">📁 Todos</button>
+          <button class="chip" type="button" data-filter="foto" aria-pressed="false">📸 Fotos</button>
+          <button class="chip" type="button" data-filter="video" aria-pressed="false">🎥 Vídeos</button>
+          <button class="chip" type="button" data-filter="misto" aria-pressed="false">🧩 Misto</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="meta">
+        <div id="count">0 álbuns</div>
+        <!--<div>Atualize a lista <strong>ALBUNS</strong> no código para adicionar novos links.</div> -->
+      </div>
+
+      <div id="empty" class="empty">
+        Nenhum álbum encontrado com os filtros atuais.
+      </div>
+
+      <section id="grid" class="grid" aria-label="Lista de álbuns"></section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Diretoria Especial de Tecnologia da Informação • Câmara Municipal de Boa Vista • Galeria institucional.
+    </div>
+  </footer>
+
+  <script>
+    // =========================
+    // 1) EDITE APENAS ESTA LISTA
+    // =========================
+    const ALBUNS = [
+      {
+        titulo: "Sessão Comemorativa dos 54 anos da CMBV",
+        tipo: "foto", // foto | video | misto
+        descricao: "Registro fotográfico da sessão ordinária.",
+        link: "https://galeria.boavista.rr.leg.br/s/54anoscmbv", // cole o link do Drive/Nextcloud/OneDrive
+        miniatura: "https://galeria.boavista.rr.leg.br/api/assets/4c75a09b-99ec-4c60-b4d1-7e083ee043ef/thumbnail?slug=54anoscmbv&size=preview&c=4QcKDYLnuJiPiHh8dkd4i0aWYHQI", // opcional: URL de uma imagem (capa). Se vazio, usa placeholder.
+        data: "2026-01-27",
+        tags: ["sessão", "plenário", "2023", "aniversário"]
+      },
+      {
+        titulo: "Audiência Pública — Mobilidade Urbana",
+        tipo: "video",
+        descricao: "Vídeos e trechos oficiais da audiência pública.",
+        link: "https://exemplo.com/album2",
+        miniatura: "",
+        data: "2025-12-10",
+        tags: ["audiência", "mobilidade", "comissão"]
+      },
+      {
+        titulo: "Evento Institucional — Visita Técnica",
+        tipo: "misto",
+        descricao: "Fotos e vídeos da visita técnica institucional.",
+        link: "https://exemplo.com/album3",
+        miniatura: "",
+        data: "2025-11-22",
+        tags: ["evento", "institucional"]
+      }
+    ];
+
+    // =========================
+    // 2) LÓGICA DA GALERIA
+    // =========================
+    const grid = document.getElementById("grid");
+    const q = document.getElementById("q");
+    const count = document.getElementById("count");
+    const empty = document.getElementById("empty");
+    const chips = Array.from(document.querySelectorAll(".chip"));
+    const year = document.getElementById("year");
+
+    year.textContent = new Date().getFullYear();
+
+    const iconPorTipo = {
+      foto: "📸",
+      video: "🎥",
+      misto: "🧩"
+    };
+
+    let filtroAtual = "all";
+
+    function norm(s){
+      return (s || "").toString().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+    }
+
+    function matches(album, query){
+      const hay = [
+        album.titulo,
+        album.descricao,
+        (album.tags || []).join(" "),
+        album.tipo,
+        album.data
+      ].join(" ");
+      return norm(hay).includes(norm(query));
+    }
+
+    function criarCard(album){
+      const td = document.createElement("article");
+      td.className = "card";
+      td.dataset.tipo = album.tipo;
+
+      const thumbHtml = album.miniatura
+        ? `<img src="${album.miniatura}" alt="Capa do álbum: ${escapeHtml(album.titulo)}">`
+        : `<div style="width:100%;height:100%;display:grid;place-items:center;color:#6b7280;font-weight:600;">
+            Capa (opcional)
+          </div>`;
+
+      td.innerHTML = `
+        <div class="thumb">
+          ${thumbHtml}
+          <div class="badge">${iconPorTipo[album.tipo] || "📁"} <span>${labelTipo(album.tipo)}</span></div>
+        </div>
+
+        <div class="content">
+          <h2 class="title">${escapeHtml(album.titulo)}</h2>
+          <p class="desc">${escapeHtml(album.descricao || "")}</p>
+          <div class="row">
+            <span>${formatarData(album.data)}</span>
+            <span>${(album.tags && album.tags.length) ? ("# " + album.tags.join(" • ")) : ""}</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="${album.link}" target="_blank" rel="noopener">
+            Abrir álbum ↗
+          </a>
+          <a class="btn" href="${album.link}" target="_blank" rel="noopener">
+            Copiar link
+          </a>
+        </div>
+      `;
+
+      // Botão "Copiar link"
+      const copyBtn = td.querySelectorAll(".btn")[1];
+      copyBtn.addEventListener("click", async (ev) => {
+        ev.preventDefault();
+        try{
+          await navigator.clipboard.writeText(album.link);
+          copyBtn.textContent = "Link copiado ✓";
+          setTimeout(() => copyBtn.textContent = "Copiar link", 1200);
+        }catch{
+          // fallback: abre o link se clipboard não estiver disponível
+          window.open(album.link, "_blank", "noopener");
+        }
+      });
+
+      return td;
+    }
+
+    function labelTipo(tipo){
+      if(tipo === "foto") return "Fotos";
+      if(tipo === "video") return "Vídeos";
+      if(tipo === "misto") return "Misto";
+      return "Álbum";
+    }
+
+    function formatarData(iso){
+      if(!iso) return "";
+      // Mantém simples (yyyy-mm-dd) -> dd/mm/yyyy
+      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+      if(!m) return iso;
+      return `${m[3]}/${m[2]}/${m[1]}`;
+    }
+
+    function escapeHtml(str){
+      return (str ?? "").toString()
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    function render(){
+      const query = q.value.trim();
+      grid.innerHTML = "";
+
+      const filtrados = ALBUNS.filter(a => {
+        const okTipo = (filtroAtual === "all") ? true : (a.tipo === filtroAtual);
+        const okBusca = query ? matches(a, query) : true;
+        return okTipo && okBusca;
+      });
+
+      filtrados.forEach(a => grid.appendChild(criarCard(a)));
+
+      count.textContent = `${filtrados.length} álbum(ns)`;
+      empty.style.display = filtrados.length ? "none" : "block";
+    }
+
+    // Busca
+    q.addEventListener("input", render);
+
+    // Filtros
+    chips.forEach(btn => {
+      btn.addEventListener("click", () => {
+        chips.forEach(b => b.setAttribute("aria-pressed", "false"));
+        btn.setAttribute("aria-pressed", "true");
+        filtroAtual = btn.dataset.filter;
+        render();
+      });
+    });
+
+    render();
+  </script>
+</body>
+</html>
