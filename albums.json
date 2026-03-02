@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-03-01",
+  "albums": [
+    {
+      "titulo": "Abertura do Ano Legislativo 2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão solene.",
+      "link": "https://galeria.boavista.rr.leg.br/share/w7iEGugujoIjrxzA1V76edjGKwO7zGHMkSObhZGvX_SdWSUhojxx9Ezt_9ftnmGj3Pw",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/efcd5314-0e76-4b92-a0a2-8c8684282732/thumbnail?key=4sEyaUNQMQ7JvRYy24_W50LdWT-N-UKIk3n9FQ5Q984tXg-eBlmPzmPpndnvc-NHdUQ&size=preview&c=JggODYKliLePd4mOdyiIh5eff9gH",
+      "data": "2026-02-24",
+      "tags": ["sessão", "plenário", "2026", "abertura ano legislativo"]
+    },
+    {
+      "titulo": "Sessão Comemorativa dos 54 anos da CMBV",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/s/54anoscmbv",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/4c75a09b-99ec-4c60-b4d1-7e083ee043ef/thumbnail?slug=54anoscmbv&size=preview&c=4QcKDYLnuJiPiHh8dkd4i0aWYHQI",
+      "data": "2026-01-27",
+      "tags": ["sessão", "plenário", "2026", "aniversário"]
+    }
+  ]
+}

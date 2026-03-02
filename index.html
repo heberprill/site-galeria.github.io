@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Galeria de Fotos e Vídeos da Câmara Municipal de Boa Vista — álbuns por evento, sessão, audiência e ações institucionais." />
+  <meta name="theme-color" content="#111827" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Galeria — Câmara Municipal de Boa Vista</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/app.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header>
+    <div class="container">
+      <div class="brand">
+        <img class="brand-logo" src="assets/logo_cmbv.png" alt="Câmara Municipal de Boa Vista" decoding="async" />
+
+        <div class="brand-text">
+          <h1>Galeria de Fotos e Vídeos</h1>
+          <p class="subtitle">
+            Câmara Municipal de Boa Vista — acesse os álbuns por evento, sessão, audiência e ações institucionais.
+          </p>
+        </div>
+
+        <!-- Ícones no HEADER (substitua os links abaixo) -->
+        <nav class="social social--header" aria-label="Redes sociais">
+          <a href="https://www.instagram.com/SEU_PERFIL" target="_blank" rel="noopener noreferrer"
+             aria-label="Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5ZM12 7.25A4.75 4.75 0 1 1 7.25 12 4.75 4.75 0 0 1 12 7.25Zm0 1.5A3.25 3.25 0 1 0 15.25 12 3.25 3.25 0 0 0 12 8.75Zm5.15-2.1a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1Z"/>
+            </svg>
+          </a>
+
+          <a href="https://www.youtube.com/@SEU_CANAL" target="_blank" rel="noopener noreferrer"
+             aria-label="YouTube" title="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.7 4.6 12 4.6 12 4.6s-5.7 0-7.5.5A3 3 0 0 0 2.4 7.2 31.2 31.2 0 0 0 2 12a31.2 31.2 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.8.5 7.5.5 7.5.5s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 22 12a31.2 31.2 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
+
+      <form class="toolbar" role="search" aria-label="Buscar e filtrar álbuns">
+        <div class="search">
+          <span class="icon" aria-hidden="true">🔎</span>
+          <label class="sr-only" for="q">Buscar álbuns</label>
+          <input
+            id="q"
+            name="q"
+            type="search"
+            placeholder="Buscar por título, descrição, tags… (ex.: sessão, audiência, 2026)"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="filters" aria-label="Filtros" aria-controls="grid">
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">📁 Todos</button>
+          <button class="chip" type="button" data-filter="foto" aria-pressed="false">📸 Fotos</button>
+          <button class="chip" type="button" data-filter="video" aria-pressed="false">🎥 Vídeos</button>
+          <button class="chip" type="button" data-filter="misto" aria-pressed="false">🧩 Misto</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <div class="meta">
+        <div id="count" aria-live="polite">0 álbuns</div>
+      </div>
+
+      <div id="empty" class="empty" role="status" aria-live="polite">
+        Carregando álbuns…
+      </div>
+
+      <section id="grid" class="grid" aria-label="Lista de álbuns"></section>
+
+      <noscript>
+        <div class="empty noscript">
+          Para usar a busca e os filtros, habilite o JavaScript no navegador.
+        </div>
+      </noscript>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-text">
+        © <span id="year"></span> A Galeria de Fotos da Câmara Municipal de Boa Vista é um produto institucional da Câmara Municipal de Boa Vista e todas as fotografias disponibilizadas são protegidas pelas leis brasileiras de direitos autorais. As imagens podem ser livremente utilizadas, desde que sejam mantidos e informados os créditos do(a) fotógrafo(a) e/ou da Câmara Municipal de Boa Vista.
+      </div>
+
+      <nav class="social social--footer" aria-label="Redes sociais">
+        <a href="https://www.instagram.com/SEU_PERFIL" target="_blank" rel="noopener noreferrer"
+           aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5ZM12 7.25A4.75 4.75 0 1 1 7.25 12 4.75 4.75 0 0 1 12 7.25Zm0 1.5A3.25 3.25 0 1 0 15.25 12 3.25 3.25 0 0 0 12 8.75Zm5.15-2.1a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1Z"/>
+          </svg>
+        </a>
+
+        <a href="https://www.youtube.com/@SEU_CANAL" target="_blank" rel="noopener noreferrer"
+           aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.7 4.6 12 4.6 12 4.6s-5.7 0-7.5.5A3 3 0 0 0 2.4 7.2 31.2 31.2 0 0 0 2 12a31.2 31.2 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.8.5 7.5.5 7.5.5s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 22 12a31.2 31.2 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z"/>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
