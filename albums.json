@@ -2,6 +2,15 @@
   "updated_at": "2026-03-01",
   "albums": [
     {
+      "titulo": "Entrega de Comendas - Semana da Mulher",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão solene.",
+      "link": "https://galeria.boavista.rr.leg.br/s/sessaosolene06032026",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/9b831f88-57b3-4d13-b6ef-84bd63fefc33/thumbnail?slug=sessaosolene06032026&size=preview&c=pRgKBYKJind5hYl%2FdnmJiNCSE4cJ",
+      "data": "2026-02-24",
+      "tags": ["sessão solene", "plenário", "2026", "semana da mulher"]
+    },
+    {
       "titulo": "Abertura do Ano Legislativo 2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão solene.",
@@ -20,4 +29,5 @@
       "tags": ["sessão", "plenário", "2026", "aniversário"]
     }
   ]
+
 }
