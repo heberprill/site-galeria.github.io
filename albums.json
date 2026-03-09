@@ -1,6 +1,15 @@
 {
   "updated_at": "2026-03-01",
   "albums": [
+     {
+      "titulo": "Encerramento - Semana da Mulher",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão solene.",
+      "link": "https://galeria.boavista.rr.leg.br/s/Semanadamulher",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/d5d82d83-3546-499b-bce6-baf95c83bd5c/thumbnail?slug=Semanadamulher&size=preview&c=YhgKBYJ1pmd%2FhXp%2FiUp5ivmmt5QH",
+      "data": "2026-03-06",
+      "tags": ["sessão solene", "plenário", "2026", "semana da mulher"]
+    },
     {
       "titulo": "Entrega de Comendas - Semana da Mulher",
       "tipo": "foto",
@@ -31,5 +40,6 @@
   ]
 
 }
+
 
 
