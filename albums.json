@@ -1,6 +1,15 @@
 {
   "updated_at": "2026-03-01",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 10/03/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/GJBWUC75INhR9fjIj7Nygs7dtWomqRqlDj93BjQVVYv-KSi9m97sP2ab-zM4-WaBoBs",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/044b1d86-f914-423a-b928-cee983a02300/thumbnail?key=GJBWUC75INhR9fjIj7Nygs7dtWomqRqlDj93BjQVVYv-KSi9m97sP2ab-zM4-WaBoBs&size=preview&c=JPgNDYBoqXV%2FdJZWesiIe7qP1v63",
+      "data": "2026-03-10",
+      "tags": ["sessão ordinária", "plenário", "2026", "março"]
+    },
      {
       "titulo": "Encerramento - Semana da Mulher",
       "tipo": "foto",
@@ -40,6 +49,7 @@
   ]
 
 }
+
 
 
 
