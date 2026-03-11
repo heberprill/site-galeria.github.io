@@ -2,6 +2,15 @@
   "updated_at": "2026-03-01",
   "albums": [
     {
+      "titulo": "Sessão Ordinária - 11/03/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/YM56APW5V9D6OWjOWqAO-GU6gbG9rUoT6n7ysGfrJZsoo8NMMBFiHingdE9lYk-_1aU",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/6d6deff4-0398-4833-a793-ee29652dba9f/thumbnail?key=YM56APW5V9D6OWjOWqAO-GU6gbG9rUoT6n7ysGfrJZsoo8NMMBFiHingdE9lYk-_1aU&size=preview&c=KvgJDYAAiZrNimZteJh2pnCROSwJ",
+      "data": "2026-03-11",
+      "tags": ["sessão ordinária", "plenário", "2026", "março"]
+    },
+    {
       "titulo": "Sessão Ordinária - 10/03/2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão ordinária.",
@@ -49,6 +58,7 @@
   ]
 
 }
+
 
 
 
