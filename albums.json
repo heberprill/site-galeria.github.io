@@ -2,6 +2,15 @@
   "updated_at": "2026-03-01",
   "albums": [
     {
+      "titulo": "Sessão Ordinária - 17/03/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/lEysLtG-UG2vUmn9ua_ABQrKWW-md7p8QKRAb0MS7UP05UyWnjTUjRc-_r0Ay_Xbj3Q",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/a39c41d9-2a55-402a-af9d-b32ed0ea787d/thumbnail?key=lEysLtG-UG2vUmn9ua_ABQrKWW-md7p8QKRAb0MS7UP05UyWnjTUjRc-_r0Ay_Xbj3Q&size=preview&c=LPgJBYALaIc%2BWoeciFh3ck0FuO8o",
+      "data": "2026-03-17",
+      "tags": ["sessão ordinária", "plenário", "2026", "março"]
+    },
+    {
       "titulo": "Sessão Ordinária - 11/03/2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão ordinária.",
