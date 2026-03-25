@@ -2,6 +2,15 @@
   "updated_at": "2026-03-01",
   "albums": [
     {
+      "titulo": "Sessão Ordinária - 25/03/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/z4WZn-MbOx-mVl6D054oynNT2rnpDmpqr45BJabJyLyD1sakn5dPBB-5ofPPsuHWfLA",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/d692cc1a-80b0-449b-b5c9-54c6620708ba/thumbnail?key=z4WZn-MbOx-mVl6D054oynNT2rnpDmpqr45BJabJyLyD1sakn5dPBB-5ofPPsuHWfLA&size=preview&c=JfgVBYJqeGh%2Fh4eHd1iIeYdflYBp",
+      "data": "2026-03-25",
+      "tags": ["sessão ordinária", "plenário", "2026", "março"]
+    },
+    {
       "titulo": "Sessão Ordinária - 24/03/2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão ordinária.",
@@ -9,6 +18,15 @@
       "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/429357b6-3e68-499a-8466-b5c12b0ce178/thumbnail?key=BdnjLTTeV3z-9WIOkXst7-24DkuhvsTm7vcxHagTO1w9FHwU8SpzVmHYtBxjEY4R40E&size=preview&c=HPgRDYBmiXh%2FeIdad3iIiaVTUE4F",
       "data": "2026-03-24",
       "tags": ["sessão ordinária", "plenário", "2026", "março"]
+    },
+    {
+      "titulo": "Primeira Ação Social da Procuradoria da Mulher da Câmara Municipal de Pacaraima",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Primeira Ação Social da Procuradoria da Mulher da Câmara Municipal de Pacaraima.",
+      "link": "https://galeria.boavista.rr.leg.br/share/UMw-WNGO_ksyd1EBDNou8QComI2KOAq6tetR1GeVo10GyviHyXCHF0wXNgOFDxWhB4Q",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/7e0daa3a-689b-4580-b5a2-c5b59082f461/thumbnail?key=UMw-WNGO_ksyd1EBDNou8QComI2KOAq6tetR1GeVo10GyviHyXCHF0wXNgOFDxWhB4Q&size=preview&c=pTcKHYaqiKZ%2FaXh%2Fg0iYey%2BW%2BHWI",
+      "data": "2026-03-21",
+      "tags": ["Procuradoria da Mulher", "Paraima", "2026", "março"]
     },
     {
       "titulo": "Sessão Ordinária - 18/03/2026",
