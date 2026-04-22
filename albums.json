@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-04-08",
+  "updated_at": "2026-04-22",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 22/04/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/GCWhE42vF_fhHiFWrOR0nam8hEgnb2gJbUXfFdQcKCKfG8Z2PX6Ay7R-Q-JBBPWx0b4",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/bf27e0c1-ab7b-4602-994c-79e6cc4b045f/thumbnail?key=GCWhE42vF_fhHiFWrOR0nam8hEgnb2gJbUXfFdQcKCKfG8Z2PX6Ay7R-Q-JBBPWx0b4&size=preview&c=XvgNDYBjZHh%2FiXiddnh3dXmo78f4",
+      "data": "2026-04-22",
+      "tags": ["sessão ordinária", "plenário", "2026", "abril"]
+    },
     {
       "titulo": "Sessão Ordinária - 08/04/2026",
       "tipo": "foto",
