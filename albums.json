@@ -2,6 +2,15 @@
   "updated_at": "2026-04-22",
   "albums": [
     {
+      "titulo": "Sessão Solene - 23/04/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão solene em Homenagem aos profissionais de Odontologia.",
+      "link": "https://galeria.boavista.rr.leg.br/share/dyodVQSDrKekNkT9tlmIJYH7bEcu7j3CK7TTF5yECCLM219QXO5c2iykuySumQfHBm4",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/a96da731-45e0-45d0-8bab-a988a3ae8794/thumbnail?key=dyodVQSDrKekNkT9tlmIJYH7bEcu7j3CK7TTF5yECCLM219QXO5c2iykuySumQfHBm4&size=preview&c=ZPgNDYKop4ePh4h6dyeIiKaPffoo",
+      "data": "2026-04-23",
+      "tags": ["sessão solene", "plenário", "2026", "abril"]
+    },
+    {
       "titulo": "Sessão Ordinária - 22/04/2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão ordinária.",
