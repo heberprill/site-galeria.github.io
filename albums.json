@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-04-30",
+  "updated_at": "2026-05-04",
   "albums": [
+    {
+      "titulo": "Sessão Solene em Homenagem aos Profissionais de Educação e Jornalismo - 04/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão Solene.",
+      "link": "https://galeria.boavista.rr.leg.br/share/TSHcBQkBgpM0I0B_o5h9UAZLPj9qallvuXDHs57hp2cgi3VGZnCXcf0zPbVKvZXF-9E",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/6c37caef-52b7-43b6-b91a-c6225a5d2d95/thumbnail?key=TSHcBQkBgpM0I0B_o5h9UAZLPj9qallvuXDHs57hp2cgi3VGZnCXcf0zPbVKvZXF-9E&size=preview&c=KfgJBYItaJdLaoiPmKZ3cs1whK8m",
+      "data": "2026-05-04",
+      "tags": ["Sessão solene", "plenário", "2026", "maio", "jornalismo", "educação"]
+    },
     {
       "titulo": "Sessão Solene em Homenagem aos Contadores - 30/04/2026",
       "tipo": "foto",
