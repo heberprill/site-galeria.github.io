@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-04",
+  "updated_at": "2026-05-05",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 05/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/yZQDRrYKT2Rwd-HzUy8gzYvw32X5XBqddVb7HRaZHOT8vft6EH8D5H_Mh98MW1uwwfM",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/818f68da-cb47-4738-b45a-c2118eb2f02c/thumbnail?key=yZQDRrYKT2Rwd-HzUy8gzYvw32X5XBqddVb7HRaZHOT8vft6EH8D5H_Mh98MW1uwwfM&size=preview&c=bfgJDYIIank5WXmLd2d3kp9m5s83",
+      "data": "2026-05-05",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "maio"]
+    },
     {
       "titulo": "Sessão Solene em Homenagem aos Profissionais de Educação e Jornalismo - 04/05/2026",
       "tipo": "foto",
