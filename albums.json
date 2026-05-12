@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-08",
+  "updated_at": "2026-05-12",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 12/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/7E7NR5FOFNfF4IyF9pGdwwpzoyr_chf15MszHNr4KvAE8NJr_1ONFxhAU5CCsKg8h3k",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/890b250a-4f10-4c81-9b56-ed4811072c69/thumbnail?key=7E7NR5FOFNfF4IyF9pGdwwpzoyr_chf15MszHNr4KvAE8NJr_1ONFxhAU5CCsKg8h3k&size=preview&c=aAgODYAvlHZLloaIiddoiW9wiAiM",
+      "data": "2026-05-12",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "maio"]
+    },
     {
       "titulo": "Dia das Mães - 08/05/2026",
       "tipo": "foto",
