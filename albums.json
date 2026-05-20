@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-14",
+  "updated_at": "2026-05-20",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 20/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/ztwJPVw0reQXy91MPKnXFWD_Wm3xqjJZ2E2jqBIX0MG30Wy_9EXGvgPjBc5HiwrH_94",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/6cc4869e-a53d-4218-ad47-c34a8bc5f70a/thumbnail?key=ztwJPVw0reQXy91MPKnXFWD_Wm3xqjJZ2E2jqBIX0MG30Wy_9EXGvgPjBc5HiwrH_94&size=preview&c=3fcNFYRiZXdsaIePdldoiZWsn%2FlX",
+      "data": "2026-05-20",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "maio"]
+    },
+    {
+      "titulo": "Blitz Educativa - 18/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da blitz educativa.",
+      "link": "https://galeria.boavista.rr.leg.br/share/F5I_Slw9_qkR1TYRaDyQHdzwEBnZbQX0RWl51UZdm-Tj4SMUEdztZ2Pw34b4_kKaaVI",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/af17af5c-3b1f-4607-b2b5-b074ec3f6466/thumbnail?key=F5I_Slw9_qkR1TYRaDyQHdzwEBnZbQX0RWl51UZdm-Tj4SMUEdztZ2Pw34b4_kKaaVI&size=preview&c=2gcODYJLjIavl3eFl5hoeJVQSAgq",
+      "data": "2026-05-18",
+      "tags": ["Blitz", "2026", "maio"]
+    },
     {
       "titulo": "Sessão Solene - 14/05/2026",
       "tipo": "foto",
