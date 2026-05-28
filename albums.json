@@ -2,6 +2,15 @@
   "updated_at": "2026-05-27",
   "albums": [
     {
+      "titulo": "Prestação de Contas - Saúde- 27/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Prestação de Contas da Secretaria de Saúde.",
+      "link": "https://galeria.boavista.rr.leg.br/share/F-7NJBfnsmEGIKahrNKzOVArSBN65zU2bN9lAX46ImW945KYHrFPTwVTLmoeldFch6k",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/e169215f-882d-45fc-a834-f6e21236645e/thumbnail?key=F-7NJBfnsmEGIKahrNKzOVArSBN65zU2bN9lAX46ImW945KYHrFPTwVTLmoeldFch6k&size=preview&c=IQgOFYKnlYmHiIh%2Fl2eYh%2FeBg6gH",
+      "data": "2026-05-27",
+      "tags": ["Prestação de Contas", "plenário", "2026", "maio"]
+    },
+    {
       "titulo": "Sessão Ordinária - 27/05/2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão ordinária.",
