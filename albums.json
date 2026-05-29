@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-05-28",
+  "updated_at": "2026-05-289",
   "albums": [
      {
+      "titulo": "Sessão Solene - 29/05/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão Solene - Inauguração do Banco Vermelho.",
+      "link": "https://galeria.boavista.rr.leg.br/share/yKMecnmicDU7tUjV4G7opCqVzirs6zvgtn9kj5otdUZgs6fXV9vZlFWbz8coxXbx4Ck",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/7168ae69-aac1-4862-a7ca-df480455b77e/thumbnail?key=yKMecnmicDU7tUjV4G7opCqVzirs6zvgtn9kj5otdUZgs6fXV9vZlFWbz8coxXbx4Ck&size=preview&c=YfgJBYJIuIh%2BaYmPd0hoiGd8vy8n",
+      "data": "2026-05-29",
+      "tags": ["Sessão solene", "plenário", "2026", "maio"]
+    },
+    {
       "titulo": "Sessão Solene - 28/05/2026",
       "tipo": "foto",
       "descricao": "Registro fotográfico da sessão Solene - Inauguração do Banco Vermelho.",
