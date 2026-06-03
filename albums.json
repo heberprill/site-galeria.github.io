@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-02",
+  "updated_at": "2026-06-03",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 03/06/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/wYfX6sNE5YI7bMF0edci7wDyJ3ELpMduaoMcxqm1Ip2QYS39Gpi1oud-0LhJtfE4yqY",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/4e9ff9be-2baa-4b0c-8a3f-db2f99dfc98e/thumbnail?key=wYfX6sNE5YI7bMF0edci7wDyJ3ELpMduaoMcxqm1Ip2QYS39Gpi1oud-0LhJtfE4yqY&size=preview&c=5vcNDYBlZmeKh2efeIdXlnCiGH0N",
+      "data": "2026-06-03",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "junho"]
+    }, 
     {
       "titulo": "Sessão Ordinária - 02/06/2026",
       "tipo": "foto",
