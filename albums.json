@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-09",
   "albums": [
+    {
+      "titulo": "Sessão Solene e Sessão Ordinária - 09/06/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Sessão Solene e Sessão Ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/RuqT5gSEDV6dgktNxJbLI78HD41k_U7jVwmr9I8ZfmhVsi8gqRyqCnDsvz02Gm-_Hxk",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/cb407313-b06c-40d3-aa17-ba2385b6ec91/thumbnail?key=RuqT5gSEDV6dgktNxJbLI78HD41k_U7jVwmr9I8ZfmhVsi8gqRyqCnDsvz02Gm-_Hxk&size=preview&c=IggKDYK2qYmOeHiOdgiHePWfP9gK",
+      "data": "2026-06-09",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "junho", "Solene", "posse"]
+    }, 
     {
       "titulo": "Sessão Ordinária - 03/06/2026",
       "tipo": "foto",
