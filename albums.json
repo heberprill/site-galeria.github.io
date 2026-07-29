@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-29",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 29/07/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/o_cDB4TL89sjxbupN9_t3nh6efoUdcgbs9B2IEeANMCBo2kL6L7jA-h6jZ-n-nmooco",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/a4482006-cc53-4d05-8050-a23b4298f5c0/thumbnail?key=o_cDB4TL89sjxbupN9_t3nh6efoUdcgbs9B2IEeANMCBo2kL6L7jA-h6jZ-n-nmooco&size=preview&c=KPgNDYAgu4m6aGWKiad2iYCDB28l",
+      "data": "2026-07-29",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "julho"]
+    },
+    {
+      "titulo": "Sessão Ordinária - 28/07/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/bWaFAvp3rB883tKiiweYB9VNS1K9Er04FSvbKmi3ylfvTNYDfk3E8V-2kk9e2eGsmW8",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/90e3dda7-5f9f-41b7-85a4-892370a1433e/thumbnail?key=bWaFAvp3rB883tKiiweYB9VNS1K9Er04FSvbKmi3ylfvTNYDfk3E8V-2kk9e2eGsmW8&size=preview&c=KfgJFYJMd3daiYZ%2Fd5iHZJmgqAmZ",
+      "data": "2026-07-28",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "julho"]
+    },
     {
       "titulo": "Sessão Ordinária - 22/07/2026",
       "tipo": "foto",
