@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-29",
+  "updated_at": "2026-08-19",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 18/08/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/HLXRIKnGMmx_d_cEBC0GP06Sn4T0QRpd-vTVZ7DprGZbfixywYnrOvCPdtFTzBcXSwQ",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/81a0ec56-f6a0-47d9-abbd-8e3c862cb095/thumbnail?key=HLXRIKnGMmx_d_cEBC0GP06Sn4T0QRpd-vTVZ7DprGZbfixywYnrOvCPdtFTzBcXSwQ&size=preview&c=3fcNFYKRhlaPiGWLh6doh7Z%2Fefho",
+      "data": "2026-08-18",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "agosto"]
+    },
     {
       "titulo": "Sessão Ordinária - 29/07/2026",
       "tipo": "foto",
