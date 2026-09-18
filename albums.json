@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-09-15",
   "albums": [
+    {
+      "titulo": "Sessão Ordinária - 15/09/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/MI5MY4w4YuUgOTg-GWOAeTNBWwmhJxA-QCKp7hCmR8Wr2E8qDG8UyBVFLfyCyG9E8Hs",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/d52578b3-0f77-4d30-bf71-94640737e807/thumbnail?key=MI5MY4w4YuUgOTg-GWOAeTNBWwmhJxA-QCKp7hCmR8Wr2E8qDG8UyBVFLfyCyG9E8Hs&size=preview&c=ZAgKDYB3e4m8VImfeqVld4nQ9w29",
+      "data": "2026-09-15",
+      "tags": ["Sessão Ordinária", "plenário", "2026", "setembro"]
+    },
     {
       "titulo": "Sessão Ordinária - 09/09/2026",
       "tipo": "foto",
