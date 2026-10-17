@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-16",
   "albums": [
+    {
+      "titulo": "Sessão Solene de Posse - 16/10/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Sessão Solene de Posse Ver. Major Emmanuel.",
+      "link": "https://galeria.boavista.rr.leg.br/share/ygDUq8KS9JSfwcB2_Cquzu5Zs_2KPyIwCY7yBIX4832nWvsNy6a3vfywsPcDQrNQZW0/photos/2434b800-f6b7-4b15-9338-ea7e6ebfa6e3",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/2434b800-f6b7-4b15-9338-ea7e6ebfa6e3/thumbnail?key=ygDUq8KS9JSfwcB2_Cquzu5Zs_2KPyIwCY7yBIX4832nWvsNy6a3vfywsPcDQrNQZW0&size=preview&c=3xgKDYIMelfHqXWth7p3daqQnT84&edited=true",
+      "data": "2026-10-16",
+      "tags": ["Sessão de Posse", "plenário", "2026", "outubro"]
+    },
+    {
+      "titulo": "Sessão Solene - Entrega Comenda Kalu Brasil - 16/10/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da sessão ordinária.",
+      "link": "https://galeria.boavista.rr.leg.br/share/lERF7ZBpftd-BZyZ9RVDog4H8wiXQ4HxYhZWlP2ea8f2ZL5xeJ1s-m-25ZYU0bSx3GY",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/c79f7c10-be47-44c9-b781-162c0da00d51/thumbnail?key=lERF7ZBpftd-BZyZ9RVDog4H8wiXQ4HxYhZWlP2ea8f2ZL5xeJ1s-m-25ZYU0bSx3GY&size=preview&c=oggKDYBzxZl%2Bd4iflweXiFeej6gH&edited=true",
+      "data": "2026-10-16",
+      "tags": ["Sessão Solene", "plenário", "2026", "outubro"]
+    },
     {
       "titulo": "Sessão Ordinária - 14/10/2026",
       "tipo": "foto",
@@ -26,7 +44,7 @@
       "link": "https://galeria.boavista.rr.leg.br/share/wQKkPGcM8-ivgGgpSg0XhFK4sZ3QEfsrDgoExaO73w6P0EMVTdAAHnx-eiQ7LX-CgqU",
       "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/99e4b0e7-daf5-43bf-87c1-434df7de8aea/thumbnail?key=wQKkPGcM8-ivgGgpSg0XhFK4sZ3QEfsrDgoExaO73w6P0EMVTdAAHnx-eiQ7LX-CgqU&size=preview&c=ZCkGHYJ1TmjPapm3NjdkjamHnx%2B6&edited=true",
       "data": "2026-10-09",
-      "tags": ["Sessão Ordinária", "plenário", "2026", "outubro"]
+      "tags": ["Sessão de Posse", "plenário", "2026", "outubro"]
     },
     {
       "titulo": "Sessão Ordinária - 15/09/2026",
