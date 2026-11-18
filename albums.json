@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-18",
   "albums": [
+    {
+      "titulo": "Oficina de Planejamento Estratégico - 17 e 18/11/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Oficina de Planejamento Estratégico",
+      "link": "https://galeria.boavista.rr.leg.br/share/xmEmu8PgO45fEI1Q-aKLNBMiuIzpX-kejd3GvkWOt9H3DFqctiYizLftIYDvuZJAy5E",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/370684e0-b666-4118-b69d-68c4f2fdfa92/thumbnail?key=xmEmu8PgO45fEI1Q-aKLNBMiuIzpX-kejd3GvkWOt9H3DFqctiYizLftIYDvuZJAy5E&size=preview&c=aAgKDYKph4ebmGefdieHdqCKNqgI&edited=true",
+      "data": "2026-11-18",
+      "tags": ["oficina", "plenário", "2026", "outubro"]
+    },
     {
       "titulo": "Sessão Solene de Posse - 16/10/2026",
       "tipo": "foto",
