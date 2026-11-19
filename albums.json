@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "albums": [
+    {
+      "titulo": "Audiência Pública - Trabalho Infantil e Outras Violências Infantis - 19/11/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Audiência Pública - Trabalho Infantil e Outras Violências Infantis",
+      "link": "https://galeria.boavista.rr.leg.br/share/jGuQr9vD3RBWkEeqGqYaZtGH_5YqkUDyBhselIIfn21e_NFynF1OPseWSWam58H_Zfo",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/7b6e58c5-7bf9-4147-af43-552be510249d/thumbnail?key=jGuQr9vD3RBWkEeqGqYaZtGH_5YqkUDyBhselIIfn21e_NFynF1OPseWSWam58H_Zfo&size=preview&c=IvgJBYKVuaePZ4mOhRmGla1fmYkH&edited=true",
+      "data": "2026-11-19",
+      "tags": ["audiencia", "plenário", "2026", "novembro"]
+    },
+    {
+      "titulo": "Entrega de Carro para Procuradoria da Mulher - 19/11/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Entrega de Carro para Procuradoria da Mulher",
+      "link": "https://galeria.boavista.rr.leg.br/share/JXkCdY8ho4RH4C6fU3eMj4_WtMar7Z9ZhGDPILdw5wrU-bfZD6RGKkmqtxJf0TlLtuA",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/13370163-5af6-4a9f-b960-5c8d98cab5c6/thumbnail?key=JXkCdY8ho4RH4C6fU3eMj4_WtMar7Z9ZhGDPILdw5wrU-bfZD6RGKkmqtxJf0TlLtuA&size=preview&c=3wcGFYq3aWeAZJiYVmeqnZiAhQho&edited=true",
+      "data": "2026-11-19",
+      "tags": ["CARRO", "plenário", "2026", "novembro", "procuradoria"]
+    },
     {
       "titulo": "Oficina de Planejamento Estratégico - 17 e 18/11/2026",
       "tipo": "foto",
@@ -8,7 +26,7 @@
       "link": "https://galeria.boavista.rr.leg.br/share/xmEmu8PgO45fEI1Q-aKLNBMiuIzpX-kejd3GvkWOt9H3DFqctiYizLftIYDvuZJAy5E",
       "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/370684e0-b666-4118-b69d-68c4f2fdfa92/thumbnail?key=xmEmu8PgO45fEI1Q-aKLNBMiuIzpX-kejd3GvkWOt9H3DFqctiYizLftIYDvuZJAy5E&size=preview&c=aAgKDYKph4ebmGefdieHdqCKNqgI&edited=true",
       "data": "2026-11-18",
-      "tags": ["oficina", "plenário", "2026", "outubro"]
+      "tags": ["oficina", "plenário", "2026", "novembro"]
     },
     {
       "titulo": "Sessão Solene de Posse - 16/10/2026",
