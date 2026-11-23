@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-23",
   "albums": [
+    {
+      "titulo": "Homenagens aos policiais e bombeiros - 23/11/2026",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Homenagens aos policiais e bombeiros",
+      "link": "https://galeria.boavista.rr.leg.br/share/1l94Q4rvtvH0Alhx9DZQqllVQ2xqVT881Vjss0IHyQMuw1TwAAsI4EvzpwbdSQTPSpw",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/2d88a4d1-d2b1-459a-9e18-d44bf03d2130/thumbnail?key=1l94Q4rvtvH0Alhx9DZQqllVQ2xqVT881Vjss0IHyQMuw1TwAAsI4EvzpwbdSQTPSpw&size=preview&c=JPgNDYCop4Z%2Bh3mPhgiYh3V%2BT%2Fpp&edited=true",
+      "data": "2026-11-23",
+      "tags": ["audiencia", "plenário", "2026", "novembro"]
+    },
     {
       "titulo": "Audiência Pública - Trabalho Infantil e Outras Violências Infantis - 19/11/2026",
       "tipo": "foto",
