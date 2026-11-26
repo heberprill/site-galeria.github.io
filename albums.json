@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-25",
   "albums": [
+    {
+      "titulo": "Sessão ordinária - 25/11/26",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Sessão ordinária - 25/11/26",
+      "link": "https://galeria.boavista.rr.leg.br/share/WbKEpHyuqf_NARdfUcAzq2cynO5FTJ6VeQgW07jm4Md6sR65H_dx1bbrtH3WcyAHMqI",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/93e9de87-dce0-4b59-9bce-a6eb75f0c85c/thumbnail?key=WbKEpHyuqf_NARdfUcAzq2cynO5FTJ6VeQgW07jm4Md6sR65H_dx1bbrtH3WcyAHMqI&size=preview&c=Y%2FgNDYAginjLZ4Z5ibd3iXCUJi8G&edited=true",
+      "data": "2026-11-25",
+      "tags": ["sessão ordinária", "plenário", "2026", "novembro"]
+    },
+    {
+      "titulo": "Sessão ordinária - 24/11/26",
+      "tipo": "foto",
+      "descricao": "Registro fotográfico da Sessão ordinária - 24/11/26",
+      "link": "https://galeria.boavista.rr.leg.br/share/59NcwzScsORwJNDBcr297szzHz_sO2cmYCDRoGO82Ip-vUfXlW0NoKNl16Uny6MCo8E",
+      "miniatura": "https://galeria.boavista.rr.leg.br/api/assets/52271ee4-b723-4fd8-8cd6-c1b402ed7340/thumbnail?key=59NcwzScsORwJNDBcr297szzHz_sO2cmYCDRoGO82Ip-vUfXlW0NoKNl16Uny6MCo8E&size=preview&c=J%2FgNDYA%2FlIc7p4Z4arh4a39o%2Be7K&edited=true",
+      "data": "2026-11-24",
+      "tags": ["sessão ordinária", "plenário", "2026", "novembro"]
+    },
     {
       "titulo": "Homenagens aos policiais e bombeiros - 23/11/2026",
       "tipo": "foto",
